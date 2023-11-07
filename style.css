@@ -33,6 +33,9 @@ body {
     /* opacity: 0;
     animation: slideright 1s ease forwards; */
 }
+.menubar{
+    color: white;
+}
 
 .navbar a {
     display: inline-block;
@@ -223,3 +226,40 @@ body {
         transform: translateY(0);
     }
 }
+
+
+
+/* media query */
+
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+@media (max-width: 991px){
+    .header{
+            padding: 2rem 3%;
+        }  
+    .logo{
+        display: none;
+    }
+    .home-content h1{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .home-content h1{
+        font-size: 40px;
+    font-weight: 550;
+    margin: -3px 0;
+    /* opacity: 0; */
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    }
+}
+
+
