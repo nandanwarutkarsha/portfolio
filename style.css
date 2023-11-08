@@ -289,8 +289,9 @@ body {
     }
     
     .home-content h1{
-        font-size: 40px;
+        font-size: 38px;
     font-weight: 550;
+    display: inline;
    
     }
     .home-img img {
@@ -298,15 +299,10 @@ body {
         margin-top: 4rem;
         margin-right: 60px;
     }
-    .home-content h3 {
-        font-size: 28px;
-        font-weight: 800;
+    .navbar a{
+        display: none;
     }
-    .home-content p{
-         font-size: 14px;
-    }
-
-}
+} 
 
 
 
